@@ -1,16 +1,19 @@
 # bad Worker 
 
-![image](https://github.com/j10nelop/m3d1r/assets/152776722/48a982fe-a8f3-463e-8ae7-31d74e8118c1)
+![image](https://github.com/LDV-SpaceK/WaniCTF2024/assets/152776722/889915c4-ffc9-471e-a74f-54c7c7033d70)
+
 
 - bài này ta có 2 cách để làm:
 
 => check chức năng của web trong đó có chức năng fetch data thì ta nhận được flag 
 
-![image](https://github.com/j10nelop/m3d1r/assets/152776722/abb2eee2-6b62-4b98-8330-302c6381d948)
+![image](https://github.com/LDV-SpaceK/WaniCTF2024/assets/152776722/90016a79-df54-4cfa-9409-0150dbb0c5fc)
+
 
 => ta có thể check qua source ctrl u thì ta thấy chức năng 
 
-![image](https://github.com/j10nelop/m3d1r/assets/152776722/3e9f5cb4-ef70-4bef-96b8-a8f21ff67dd6)
+![image](https://github.com/LDV-SpaceK/WaniCTF2024/assets/152776722/eacbb71c-7124-4784-a238-096db72c8652)
+
 
 ```
 <script>navigator.serviceWorker.register('service-worker.js');</script>
